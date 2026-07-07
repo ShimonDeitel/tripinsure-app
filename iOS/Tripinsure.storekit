@@ -1,0 +1,42 @@
+{
+  "identifier" : "TripinsureStoreKitConfig",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_developerTeamID" : "W7Q885Q59C"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "TripinsureProGroup",
+      "localizations" : [],
+      "name" : "Tripcase Insurance Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "tripinsure_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited trips, document photo attachments, and expiry alerts",
+              "displayName" : "Tripcase Insurance Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.tripinsure.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Tripinsure Pro Monthly",
+          "subscriptionGroupID" : "TripinsureProGroup",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
